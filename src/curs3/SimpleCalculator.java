@@ -5,7 +5,7 @@ import java.util.Scanner;
 // facem un calculator simplu pt operatiile de baza: +, *, -, /
 // intrebam userul primul nr
 // intrebam userul operatia matematica
-//intrebam userul al doilea nr
+// intrebam userul al doilea nr
 // printam rezultatul: "Ex: 4+4=8"
 
 
@@ -26,7 +26,8 @@ import java.util.Scanner;
 		operation = scan.next().charAt(0);
 		System.out.println("Please enter the second number:");
 		num2 = scan.nextInt();	
-	}
+		}
+		
 	
 		public void calculator () {
 		
@@ -37,14 +38,15 @@ import java.util.Scanner;
 			}else if(operation == '-') {
 				result = num1-num2;
 				printResult();
-			}else if (operation == '*') {
+			}else if((operation == '*') || (operation == 'x'))  {
 				result = num1*num2;
 				printResult();
-			}else if(operation == '/') {
+			}else if((operation == '/') || (operation == ':')) {
 				result = num1/num2;
 				printResult();
-			}
-		}
+			} else System.out.println("Wrong operation");
+				
+		 }
 		
 	public void printResult() {
 		System.out.println(num1 + " " + operation + " "+ num2 + " = " + result);
