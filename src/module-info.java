@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author ealbu
+ *
+ */
+module CursJava {
+}
