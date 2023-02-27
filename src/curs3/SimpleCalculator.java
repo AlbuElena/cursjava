@@ -38,10 +38,10 @@ import java.util.Scanner;
 			}else if(operation == '-') {
 				result = num1-num2;
 				printResult();
-			}else if((operation == '*') || (operation == 'x'))  {
+			}else if(operation == '*' || operation == 'x')  {
 				result = num1*num2;
 				printResult();
-			}else if((operation == '/') || (operation == ':')) {
+			}else if(operation == '/' || operation == ':') {
 				result = num1/num2;
 				printResult();
 			} else System.out.println("Wrong operation");
