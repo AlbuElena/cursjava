@@ -45,7 +45,7 @@ public class Homework4 {
 		//default: System.out.println("Te rugam sa introduci un numar intre 1 si 7");
 		
 		}
-	if(a<=7) {
+	if(a<=7&&a>0) {
 		System.out.println("Ziua saptamanii este " + ziuaSaptamanii); 
 	}else System.out.println("Te rugam sa introduci un numar intre 1 si 7");
 	}
