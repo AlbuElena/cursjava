@@ -2,7 +2,7 @@ package curs3;
 
 import java.util.Scanner;
 
-public class Print_anumit_char_din_string {
+public class EUPrint_anumit_char_din_string {
 
 	public static void main(String[] args) {
 	/*	// Afisez un string introdus de la tastatura 

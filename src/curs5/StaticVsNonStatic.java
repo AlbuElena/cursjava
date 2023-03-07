@@ -2,7 +2,7 @@ package curs5;
 
 public class StaticVsNonStatic {
 	
-	static String nume;
+	String nume;
 	static String departament = "QA";
 
 	public static void main(String[] args) {
@@ -32,7 +32,7 @@ public class StaticVsNonStatic {
 		System.out.println(person.nume + departament);
 		System.out.println(person2.nume + departament);
 		System.out.println(person3.nume + departament);
-		
+				
 	}
 
 }
