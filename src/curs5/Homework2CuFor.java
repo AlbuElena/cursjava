@@ -6,12 +6,13 @@ public class Homework2CuFor {
 		// numara vocalele dintr-un string dat
 		
 		String text = "Eu invat Java";
+		String uppertext = text.toUpperCase();  // transform in Upper sirul initial, ca sa caut atat vocalele a, e, i, o, u cat si A, E, I, O, U
 		int count = 0;
 						
 		for(int i=0; i< text.length(); i++ ) {
-			String uppertext = text.toUpperCase();  // transform in Upper sirul initial, ca sa caut atat vocalele a, e, i, o, u cat si A, E, I, O, U
-			
+					
 			switch(uppertext.charAt(i)) {
+			
 			case 'A': count += 1;  break;
 			case 'E': count += 1;  break;
 			case 'I': count += 1;  break;

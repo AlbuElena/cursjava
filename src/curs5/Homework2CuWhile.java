@@ -6,12 +6,13 @@ public class Homework2CuWhile {
 		// numara vocalele dintr-un string dat
 		
 		String text = "Eu invat Java";
+		String uppertext = text.toUpperCase();
 		int count = 0;
 		int i = 0;
 		
 		while(i<text.length()) {
-			String uppertext = text.toUpperCase();
 			switch(uppertext.charAt(i)) {
+			
 			case 'A': count += 1;  break;
 			case 'E': count += 1;  break;
 			case 'I': count += 1;  break;
