@@ -10,7 +10,6 @@ public class Homework4 {
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Introduceti un numar: ");
 		String numar = scan.next();
-		//System.out.println(numar);
 		int lungime = numar.length();
 		while(lungime>0) {
 			System.out.print(numar.charAt(lungime-1));
