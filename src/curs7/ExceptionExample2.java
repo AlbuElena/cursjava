@@ -24,6 +24,8 @@ public class ExceptionExample2 {
 		}
 		catch (NullPointerException e) {
 			System.out.println("A primit un null pointer");
+		}catch (Exception e) {
+			//TODO: handle exception
 		}
 		
 		
