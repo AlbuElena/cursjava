@@ -13,12 +13,12 @@ public class Homework1 {
 		Scanner scan = new Scanner(System.in);
 		numar =scan.nextInt();
 		
-		while (numar<0 || numar>11) {
-				System.out.println("Ati introdus un numar invalid. Introduceti un numar intreg intre 0 si 11!");
+		while (numar<=0 || numar>12) {
+				System.out.println("Ati introdus un numar invalid. Introduceti un numar intreg intre 1 si 12!");
 				System.out.println("Introduceti un numar: ");
 				numar =scan.nextInt();
 			}
-		System.out.println(lunile[numar]);
+		System.out.println(lunile[numar-1]);
 		
 		
 

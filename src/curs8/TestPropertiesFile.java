@@ -11,6 +11,7 @@ public class TestPropertiesFile {
 		//propFile.writePropertiesFile();
 		propFile.readPropertiesFile("email");
 		propFile.readPropertiesFile("user");
+		
 
 	}
 
