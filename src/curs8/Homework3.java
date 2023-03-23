@@ -27,8 +27,10 @@ public class Homework3 {
 		List<String> result = new ArrayList<String>();
 			
 		for(String elem :list1) {
-			if(list2.contains(elem)){ result.add("Yes");}
-			else result.add("No");
+			result.add(list2.contains(elem)? "Yes" : "No");
+			//sau asa, fara operator ternar
+			//if(list2.contains(elem)){ result.add("Yes");}
+			//else result.add("No");
 		}
 		
 		System.out.println(result);

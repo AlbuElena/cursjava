@@ -22,7 +22,7 @@ public class Homework1 {
 		do {
 		System.out.println("Introduceti leguma pe care vreti sa o cumparati:");
 		Scanner scan = new Scanner(System.in);
-		String leguma = scan.next();
+		String leguma = scan.next().toLowerCase();
 			
 		if(file.keySet().contains(leguma)) {
 			propFile.readPropertiesFile(leguma);

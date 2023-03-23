@@ -19,12 +19,12 @@ public class Homework2 {
 		Scanner scan = new Scanner(System.in);
 		String nume = scan.next();
 		System.out.println("Introdu nota:");
-		Scanner scan2 = new Scanner(System.in);
-		int nota = scan2.nextInt();
+		//Scanner scan2 = new Scanner(System.in); // nu e nevoie de 2 instante a clasei Scanner
+		int nota = scan.nextInt();
 		
 		if(map.containsKey(nume) == true) {
 			
-			if((map.get(nume)) > nota) {
+			if((map.get(nume)) >= nota) {
 				System.out.println("Nu ai nevoie de alta nota");
 			}else if ((map.get(nume)) < nota) {
 				map.replace(nume, nota);
