@@ -14,8 +14,7 @@ public class Homework1 {
 		if(punctaj>=0 && punctaj <=65) {
 			System.out.println("Ai picat. Mai incearca");
 		}else System.out.println("Felicitari. Ai trecut!");
-			
-			    
+					    
 	}
 	
 }
